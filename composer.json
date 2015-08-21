@@ -1,0 +1,36 @@
+{
+    "name" : "softlogo/user-bundle",
+    "description" : "User Bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "borysjank",
+        "email" : "borysjank@gmail.com"
+    }],
+    "keywords" : [
+        "user bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Softlogo\\UserBundle" : ""
+        }
+    },
+    "target-dir" : "Softlogo/UserBundle",
+    "repositories": [
+        {
+        
+        }
+    ],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "1.0-dev"
+        }
+    }
+}
+
+

@@ -1,0 +1,7 @@
+parameters:
+#    softlogo_user.example.class: Softlogo\UserBundle\Example
+
+services:
+#    softlogo_user.example:
+#        class: %softlogo_user.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

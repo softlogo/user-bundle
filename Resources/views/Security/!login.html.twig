@@ -1,0 +1,23 @@
+<form action="{{ path("fos_user_security_check") }}" method="post">
+
+	<div class="row">
+		<!--Left Column-->
+		<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="form-group">
+				<label for="exampleInputEmail1">Login</label>
+				<input type="text" name="_username" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="form-group">
+				<label for="exampleInputEmail1">Hasło</label>
+				<input type="password" name="_password" class="form-control" placeholder="Password" required>
+			</div>
+		</div>
+
+	</div>
+
+
+  <input type="hidden" name="_csrf_token" value="{{ fos_csrf_provider.generateCsrfToken('authenticate') }}" />
+  <button class="btn btn-primary" type="submit">Zaloguj się</button>
+</form>
